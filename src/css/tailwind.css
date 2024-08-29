@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .skills-card {
+      @apply w-full lg:w-1/4 flex flex-auto gap-5 lg:block border border-sky-200 border-opacity-5 rounded-lg mb-2 bg-white bg-opacity-[0.02] hover:bg-white hover:bg-opacity-[0.03] pl-3 py-2 lg:py-0 lg:pl-0 lg:pt-2;
+    }
+    .skills-card-title{
+        @apply text-white font-semibold text-xl lg:text-center my-auto w-36 lg:w-fit max-w-48 min-w-20 lg:max-w-none break-words lg:mx-auto lg:px-2;
+    }
+    .skills-card-caption {
+        @apply border-l border-l-sky-200 lg:border-t lg:border-l-0 lg:border-t-sky-200 border-opacity-5 lg:border-opacity-5 px-6 py-2 lg:mt-2 text-balance;
+    }
+    .project-card-box {
+        @apply block border border-sky-200 border-opacity-5 rounded-lg mb-2 bg-white bg-opacity-[0.01] p-10 w-full lg:w-[32%] mx-auto lg:mx-0;
+    }
+    .projects-card-title {
+        @apply text-white font-semibold text-xl lg:text-2xl;
+    }
+  }
